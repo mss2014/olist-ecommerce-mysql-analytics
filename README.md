@@ -14,6 +14,10 @@ The ecosystem is modeled as a star/snowflake schema centered around the historic
 *   **`products`** resolves localized names through **`product_category_name_translation`**.
 
 ---
+## 🚀 Getting Started
+
+### 1. Import the Sample Database
+    2. Connect to MySQL
 
 ## 🛠️ Project Structure & Architecture
 
@@ -82,3 +86,4 @@ CREATE INDEX idx_order_payments_order_id ON order_payments(order_id);
 -- You can measure execution cost impacts using profiling metrics
 EXPLAIN SELECT * FROM orders WHERE customer_id = '9ef432eb6251297304e76186b10a928d';
 
+This project is licensed under the MIT License.
